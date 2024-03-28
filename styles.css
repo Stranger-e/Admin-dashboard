@@ -12,16 +12,23 @@
 }
 
 .dashboard {
+    padding-top: 20px;
     background-color: #0D9276;
-    padding: 10px;
+    align-items: start;
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
 }
 
 .board{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    align-content: center;
 
+}
+
+.details, .details2{
+    display: grid;
+    gap: 20px;
 }
 
 .dash{
@@ -31,6 +38,25 @@
 img{
     width: 4rem;
     justify-self: end;
+    align-self: center;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    grid-row: 300px;
+    
+}
+
+h4{
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.logo{
+    justify-self: end;
+    width: 2rem;
 }
 
 .nav-bar{
