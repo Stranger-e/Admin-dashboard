@@ -87,15 +87,35 @@ input{
 
 .bottom{
     display: grid;
-    grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
+    grid-template-columns: 6fr  1fr 1fr 1fr;
     align-items: center;
     gap: 20px;
 }
 
-.bottom > img {
+.left{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}
+
+.left > img {
     border-radius: 100%;
-    width: 5em;
-    justify-self: center;
+    width: 6em;
+    justify-self: end;
+}
+
+.hi{
+    align-self: center;
+    justify-self: start;
+}
+
+button{
+    background-color: #0D9276;
+    height: 3em;
+    border-radius: 30px;
+    border: 0px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .content{
