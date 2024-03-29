@@ -1,6 +1,11 @@
 * {
-    font-family: Roboto;
+    font-family: myFont;
     margin: 0px;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(/Roboto/Roboto-Black.ttf);
 }
 
 .container{
@@ -45,7 +50,7 @@ img{
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 20px;
-    grid-row: 300px;
+    
     
 }
 
@@ -121,6 +126,50 @@ button{
 .content{
     background-color: #BBE2EC;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
+
+.projects{
+    grid-row: 1 / 3;
+    padding: 15px;
+}
+
+.project-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.cool{
+    background-color: #FFF6E9;
+    padding: 18px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    gap: 5px;
+}
+
+.images > .logo{
+    width: 1.5em;
+}
+
+
+.info > p {
+    font-weight: bold;
+    font-size: small;
+    opacity: 60%;
+}
+
+
+
 
 
