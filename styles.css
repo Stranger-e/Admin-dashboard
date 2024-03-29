@@ -33,7 +33,7 @@
 
 .details, .details2{
     display: grid;
-    gap: 20px;
+    gap: 10px;
 }
 
 .dash{
@@ -69,6 +69,8 @@ h4{
     padding: 10px;
     display: grid;
     grid-template-rows: 1fr 2fr;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+
 }
 
 .top{
@@ -143,12 +145,18 @@ button{
     gap: 20px;
 }
 
+h4{
+    padding-bottom: 10px;
+}
+
 .cool{
     background-color: #FFF6E9;
-    padding: 18px;
+    padding: 30px;
     border-radius: 12px;
     display: grid;
     grid-template-rows: 3fr 1fr;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    border-left: 7px solid orange;
 }
 
 .images{
@@ -169,6 +177,33 @@ button{
     opacity: 60%;
 }
 
+.announcement-content{
+    background-color: #FFF6E9;
+    padding: 30px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.trend-content{
+    background-color: #FFF6E9;
+    padding: 30px;
+    border-radius: 12px;
+    display: grid;
+    gap: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.trend-content >.home > img {
+    border-radius: 100%;
+    width: 3em;
+}
+
+.about{
+    opacity: 60%;
+}
 
 
 
