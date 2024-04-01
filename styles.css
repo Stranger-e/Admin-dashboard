@@ -172,7 +172,7 @@ h4{
 }
 
 .info > #head {
-    font-weight: 200;
+    font-weight: bold;
     font-size: medium;
     opacity: 100%;
 }
