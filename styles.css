@@ -181,7 +181,7 @@ h4{
 .info > p {
     font-weight: bold;
     font-size: small;
-    opacity: 70%;
+    opacity: 60%;
 }
 
 .announcements{
@@ -200,7 +200,7 @@ h4{
 
 hr {
     margin-top: 1em;
-    opacity: 70%;
+    opacity: 50%;
 }
 
 .trends{
