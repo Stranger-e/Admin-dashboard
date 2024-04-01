@@ -164,7 +164,7 @@ h4{
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: end;
-    gap: 5px;
+    gap: 15px;
 }
 
 .images > .logo{
