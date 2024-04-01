@@ -12,7 +12,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 3fr;
 }
 
@@ -22,7 +22,8 @@
     align-items: start;
     grid-row: 1 / 3;
     display: grid;
-    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-rows: 0.5fr 2fr 3fr;
+    gap: 0px;
 }
 
 .board{
@@ -118,7 +119,7 @@ input{
 
 button{
     background-color: #0D9276;
-    height: 3em;
+    height: 2.5em;
     border-radius: 30px;
     border: 0px;
     font-weight: bold;
@@ -127,7 +128,7 @@ button{
 
 .content{
     background-color: #BBE2EC;
-    padding: 10px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -170,11 +171,21 @@ h4{
     width: 1.5em;
 }
 
+.info > #head {
+    font-weight: 200;
+    font-size: medium;
+    opacity: 100%;
+}
+
 
 .info > p {
     font-weight: bold;
     font-size: small;
-    opacity: 60%;
+    opacity: 70%;
+}
+
+.announcements{
+    padding: 15px;
 }
 
 .announcement-content{
@@ -184,7 +195,16 @@ h4{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
-     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+hr {
+    margin-top: 1em;
+    opacity: 70%;
+}
+
+.trends{
+    padding: 15px;
 }
 
 .trend-content{
@@ -194,6 +214,10 @@ h4{
     display: grid;
     gap: 15px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.trends > h4 {
+    padding-top: 15px;
 }
 
 .trend-content >.home > img {
